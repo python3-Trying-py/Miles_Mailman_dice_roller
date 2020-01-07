@@ -1,0 +1,16 @@
+while True:
+    que1=input("Miles Mailman inquires, 'Would you like to roll the dice?'\n")
+    if que1=="yes":
+        import random
+
+        dicesides = ["Miles Mailman 1","Miles Mailman 2","Mail","Male","Miles Mailman"]
+        print("The dice show ",random.choice(dicesides))
+
+    elif que1=="no":
+        print("Then none shall leave")
+
+    else:
+        print("answer coherently, you baffoon")
+    
+
+
